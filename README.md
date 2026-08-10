@@ -11,4 +11,5 @@ Funcionalidades:
 - Cálculo automático da sequência de Collatz para qualquer número inteiro positivo
 - Exibição passo a passo da sequência gerada
 - Interface simples e direta via terminal
+- Validação para não aceitar 0, 1 ou números negativos
 - Código leve e rápido, sem dependências externas

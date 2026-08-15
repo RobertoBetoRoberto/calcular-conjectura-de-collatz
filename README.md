@@ -13,3 +13,6 @@ Funcionalidades:
 - Interface simples e direta via terminal
 - Validação para não aceitar 0, 1 ou números negativos
 - Código leve e rápido, sem dependências externas
+- Exibição de contagem de passos
+- Escolha até qual número será calculado (iniciando no número 2)
+- Exibe os 5 números que precisaram da maior quantidade de passos

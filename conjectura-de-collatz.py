@@ -16,7 +16,6 @@ N4 = 0
 N5 = 0
 
 while True:
-    quantidade_inicial = int(input())
     if quantidade_inicial > 2:
         break
     print("Números negativos, menores ou iguais a 1 não são validos. Por favor digite um número positivo maior que 1.")

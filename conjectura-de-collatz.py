@@ -1,5 +1,9 @@
-print("Digite até qual número você deseja testar")
-    
+print("Digite o número que você deseja como número inicial")
+quantidade_inicial = int(input())
+print("Digite o número que você deseja como número final")
+quantidade_final = int(input())
+quantidade_final = quantidade_final + 1
+
 NP1 = 0
 NP2 = 0
 NP3 = 0
@@ -12,12 +16,12 @@ N4 = 0
 N5 = 0
 
 while True:
-    quantidade_testes = int(input())
-    if quantidade_testes > 2:
+    quantidade_inicial = int(input())
+    if quantidade_inicial > 2:
         break
-    print("Números negativos, menores ou iguais a 2 não são validos. Por favor digite um número positivo maior que 1.")
+    print("Números negativos, menores ou iguais a 1 não são validos. Por favor digite um número positivo maior que 1.")
 
-for i in range (2, quantidade_testes + 1):
+for i in range (quantidade_inicial, quantidade_final):
     print(f"Teste do número: {i}\n")
     numero = i
     passos = 0

@@ -1,9 +1,3 @@
-print("Digite o número que você deseja como número inicial")
-quantidade_inicial = int(input())
-print("Digite o número que você deseja como número final")
-quantidade_final = int(input())
-quantidade_final = quantidade_final + 1
-
 NP1 = 0
 NP2 = 0
 NP3 = 0
@@ -15,10 +9,22 @@ N3 = 0
 N4 = 0
 N5 = 0
 
+print("Digite o número que você deseja como número inicial")
 while True:
-    if quantidade_inicial > 2:
+    quantidade_inicial = int(input())
+    if quantidade_inicial > 1:
         break
     print("Números negativos, menores ou iguais a 1 não são validos. Por favor digite um número positivo maior que 1.")
+
+print("Digite o número que você deseja como número final")
+while True:
+    quantidade_final = int(input())
+    if quantidade_final > quantidade_inicial:
+        break
+    print("O número final deve ser um número inteiro maior que o número inicial.")
+
+quantidade_final = quantidade_final + 1
+
 
 for i in range (quantidade_inicial, quantidade_final):
     print(f"Teste do número: {i}\n")
@@ -69,5 +75,5 @@ for i in range (quantidade_inicial, quantidade_final):
         NP5 = passos
         N5 = i
     print(f"\nNúmero de passos: {passos}\n \n FIM\n")
-print(f"Numeros com maiores quantidades de passos:\n Número: {N1} | Passos: {NP1}\n Número: {N2} | Passos: {NP2}\n Número: {N3} | Passos: {NP3}\n Número: {N4} | Passos: {NP4}\n Número: {N5} | Passos: {NP5} ")
+print(f"Números com maiores quantidades de passos:\n Número: {N1} | Passos: {NP1}\n Número: {N2} | Passos: {NP2}\n Número: {N3} | Passos: {NP3}\n Número: {N4} | Passos: {NP4}\n Número: {N5} | Passos: {NP5} ")
 input("FIM DO ALGORITMO")

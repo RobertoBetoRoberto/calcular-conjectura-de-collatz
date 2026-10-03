@@ -13,7 +13,9 @@ Funcionalidades:
 - Interface simples e direta via terminal
 - Código leve e rápido, sem dependências externas (sem utilização de bibliotecas)
 - Opção de escolher um intervalo continuo de números que serão calculado (podendo iniciar a partir do número 2)
-- Validação para não aceitar 0, 1 ou números negativos como número inicial
+- Validação para não aceitar 0, 1, números negativos ou decimais como número inicial
+- Validação para não aceitar texto
 - Validação para não aceitar um número final menor que o número inicial
+- Tratamento de erros caso não seja atendida alguma das validações
 - Exibição de contagem de passos
-- Exibição dos 5 números que precisaram da maior quantidade de passos para serem resolvidos e suas repectivas quantidades de passos necessários
+- Exibição dos 5 números que necessitaram da maior quantidade de passos para serem resolvidos e suas repectivas quantidades de passos necessários
